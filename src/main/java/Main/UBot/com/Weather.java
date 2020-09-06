@@ -12,7 +12,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 public abstract class Weather {
-    private final static String WEATHER_API_KEY = "8cc70e2b9c11a25458c209faa5ff525c";
+    private final static String WEATHER_API_KEY = "your API key";
     private final static String headURL = "https://api.openweathermap.org/data/2.5/weather?q=";
     protected static Optional<WeatherParser> getWeatherNow(String cityInput){
         String URL = headURL + cityInput + "&units=metric&appid=" + WEATHER_API_KEY;
