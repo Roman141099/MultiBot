@@ -176,7 +176,7 @@ public class MainBotController extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1279337934:AAGCjnDbRaboqvcMugWhNODDzp1T50SxogQ";
+        return "your TG token";
     }
 
     private void sendMessage(Message msg, String text, Consumer<SendMessage> buttons) {
